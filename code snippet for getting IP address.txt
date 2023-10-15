@@ -1,0 +1,6 @@
+response = requests.get("https://ipv4.icanhazip.com")
+if response.status_code == 200:
+    ip_address = response.text.strip()
+    print("Your external IP address is:", ip_address)
+else:
+    print("Failed to retrieve the IP address.")
