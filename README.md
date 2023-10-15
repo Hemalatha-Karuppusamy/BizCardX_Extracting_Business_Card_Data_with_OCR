@@ -44,3 +44,7 @@ BizCardX is a powerful Streamlit application designed to streamline the process 
 - Add more options for data manipulation and analysis.
 - Implement user authentication and access control.
 - Support more languages for OCR.
+- 
+## NOTE - Use the below comments to run the application using google colab
+!npm install localtunnel
+!streamlit run Bizcard.py &>/content/logs.txt & npx localtunnel --port 8501
